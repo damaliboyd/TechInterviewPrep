@@ -1,14 +1,13 @@
 # TechInterviewPrep
-Just following this plan https://techinterviewhandbook.org/best-practice-questions/
+My initial solutions, optimized solutions and my notes.I am just following the plan on [techinterviewhandbook](https://techinterviewhandbook.org/best-practice-questions/)
 
-My initial solutions, optimized solutions and my notes.
 
-[Week 1 - Sequences](./week1Sequences.js) 
+[Week 1 - Sequences](./src/week1Sequences.md) 
 
-[Week 2 - Data Structures](./week2DS.js)
+[Week 2 - Data Structures](./src/week2DS.md)
 
-[Week 3 - Non-Linear Data Structures](./week3NonlinearDS.js)
+[Week 3 - Non-Linear Data Structures](./src/week3NonlinearDS.md)
 
-[Week 4 - More Data Structures](./week4MoreDS.js)
+[Week 4 - More Data Structures](./src/week4MoreDS.md)
 
-[Week 5 - Dynamic Programming](./week5DynamicPro.js)
+[Week 5 - Dynamic Programming](./src/week5DynamicPro.md)
