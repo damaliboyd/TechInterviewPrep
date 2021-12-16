@@ -56,3 +56,38 @@ var twoSum = function(nums, target) {
 
 ### [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 Potential future reference: [Blind 75 Python by NeetCode](https://www.youtube.com/watch?v=KLlXCFG5TnA&list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
+Did this in C# before I switched to javascript.
+
+```
+public class Solution {
+    public bool ContainsDuplicate(int[] nums) {
+        
+        for(int a = 0; a < nums.Length; a++ ){
+            
+            for(int b = a+1; b < nums.Length; b++){
+                if(nums[a]==nums[b]){
+                    return true;
+                }
+            }  
+        }
+        return false;
+    }
+}
+```
+
+A really cool solution I found. 
+
+```
+public class Solution {
+    public bool ContainsDuplicate(int[] nums) {
+        
+        HashSet<int> setOfNums = new HashSet<int>(nums);
+        
+        if(setOfNums.Count == nums.Length){
+            return false;
+        }
+        
+        return true;
+    }
+}
+```
